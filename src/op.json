@@ -1,0 +1,1325 @@
+{
+  "title": "Competitive Programmer\u2019s Handbook",
+  "sections": [
+    {
+      "level": "H1",
+      "text": "Competitive Programmer\u2019s Handbook",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "Antti Laaksonen",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "Contents",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "Preface",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "Part I / Basic techniques",
+      "page": 11
+    },
+    {
+      "level": "H1",
+      "text": "Chapter 1 / Introduction",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "Programming languages",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "C++ code template / Input and output",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "Working with numbers / Integers / Modular arithmetic",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "Floating point numbers",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "Shortening code / Type names",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "Macros",
+      "page": 19
+    },
+    {
+      "level": "H2",
+      "text": "Mathematics / Sum formulas",
+      "page": 20
+    },
+    {
+      "level": "H2",
+      "text": "Set theory",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "Logic / Functions",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "Logarithms",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "Contests and resources / IOI / ICPC",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "Online contests / Books",
+      "page": 26
+    },
+    {
+      "level": "H1",
+      "text": "Chapter 2 / Time complexity",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "Calculation rules / Loops",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "Order of magnitude / Phases",
+      "page": 28
+    },
+    {
+      "level": "H2",
+      "text": "Several variables / Recursion",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "Complexity classes",
+      "page": 30
+    },
+    {
+      "level": "H2",
+      "text": "Estimating ef\ufb01ciency / Maximum subarray sum",
+      "page": 31
+    },
+    {
+      "level": "H2",
+      "text": "Algorithm 1 / Algorithm 2",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "Algorithm 3 / E\ufb03ciency comparison",
+      "page": 33
+    },
+    {
+      "level": "H1",
+      "text": "Chapter 3 / Sorting",
+      "page": 35
+    },
+    {
+      "level": "H2",
+      "text": "Sorting theory / O / n / algorithms",
+      "page": 35
+    },
+    {
+      "level": "H2",
+      "text": "Inversions",
+      "page": 36
+    },
+    {
+      "level": "H2",
+      "text": "O / n / n / algorithms",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "Sorting lower bound / Counting sort",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "Sorting in C++",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "text": "Comparison operators / User-de\ufb01ned structs",
+      "page": 40
+    },
+    {
+      "level": "H2",
+      "text": "Comparison functions / Binary search",
+      "page": 41
+    },
+    {
+      "level": "H2",
+      "text": "Method 1 / Method 2",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "text": "C++ functions / Finding the smallest solution",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "Finding the maximum value",
+      "page": 44
+    },
+    {
+      "level": "H1",
+      "text": "Chapter 4 / Data structures",
+      "page": 45
+    },
+    {
+      "level": "H2",
+      "text": "Dynamic arrays",
+      "page": 45
+    },
+    {
+      "level": "H2",
+      "text": "Set structures",
+      "page": 47
+    },
+    {
+      "level": "H2",
+      "text": "Map structures",
+      "page": 48
+    },
+    {
+      "level": "H2",
+      "text": "Iterators and ranges / Working with ranges",
+      "page": 49
+    },
+    {
+      "level": "H2",
+      "text": "Set iterators",
+      "page": 50
+    },
+    {
+      "level": "H2",
+      "text": "Other structures / Bitset",
+      "page": 51
+    },
+    {
+      "level": "H2",
+      "text": "Deque / Stack",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "Queue / Priority queue",
+      "page": 53
+    },
+    {
+      "level": "H2",
+      "text": "Policy-based data structures / Comparison to sorting",
+      "page": 54
+    },
+    {
+      "level": "H2",
+      "text": "Algorithm 1 / Algorithm 2 / Algorithm 3 / E\ufb03ciency comparison",
+      "page": 55
+    },
+    {
+      "level": "H1",
+      "text": "Chapter 5 / Complete search",
+      "page": 57
+    },
+    {
+      "level": "H2",
+      "text": "Generating subsets / Method 1",
+      "page": 57
+    },
+    {
+      "level": "H2",
+      "text": "Method 2",
+      "page": 58
+    },
+    {
+      "level": "H2",
+      "text": "Generating permutations / Method 1 / Method 2",
+      "page": 59
+    },
+    {
+      "level": "H2",
+      "text": "Backtracking",
+      "page": 60
+    },
+    {
+      "level": "H2",
+      "text": "Pruning the search",
+      "page": 61
+    },
+    {
+      "level": "H2",
+      "text": "Basic algorithm / Optimization 1",
+      "page": 62
+    },
+    {
+      "level": "H2",
+      "text": "Optimization 2 / Optimization 3 / Optimization 4",
+      "page": 63
+    },
+    {
+      "level": "H2",
+      "text": "Meet in the middle",
+      "page": 64
+    },
+    {
+      "level": "H1",
+      "text": "Chapter 6 / Greedy algorithms",
+      "page": 67
+    },
+    {
+      "level": "H2",
+      "text": "Coin problem / Greedy algorithm",
+      "page": 67
+    },
+    {
+      "level": "H2",
+      "text": "General case / Scheduling",
+      "page": 68
+    },
+    {
+      "level": "H2",
+      "text": "Algorithm 1 / Algorithm 2",
+      "page": 69
+    },
+    {
+      "level": "H2",
+      "text": "Algorithm 3 / Tasks and deadlines",
+      "page": 70
+    },
+    {
+      "level": "H2",
+      "text": "Minimizing sums / Case / c / Case / c",
+      "page": 71
+    },
+    {
+      "level": "H2",
+      "text": "Data compression",
+      "page": 72
+    },
+    {
+      "level": "H2",
+      "text": "Hu\ufb00man coding",
+      "page": 73
+    },
+    {
+      "level": "H1",
+      "text": "Chapter 7 / Dynamic programming",
+      "page": 75
+    },
+    {
+      "level": "H2",
+      "text": "Coin problem",
+      "page": 75
+    },
+    {
+      "level": "H2",
+      "text": "Recursive formulation",
+      "page": 76
+    },
+    {
+      "level": "H2",
+      "text": "Using memoization",
+      "page": 77
+    },
+    {
+      "level": "H2",
+      "text": "Constructing a solution",
+      "page": 78
+    },
+    {
+      "level": "H2",
+      "text": "Counting the number of solutions",
+      "page": 79
+    },
+    {
+      "level": "H2",
+      "text": "Longest increasing subsequence",
+      "page": 80
+    },
+    {
+      "level": "H2",
+      "text": "Paths in a grid",
+      "page": 81
+    },
+    {
+      "level": "H2",
+      "text": "Knapsack problems",
+      "page": 82
+    },
+    {
+      "level": "H2",
+      "text": "Edit distance",
+      "page": 84
+    },
+    {
+      "level": "H2",
+      "text": "Counting tilings",
+      "page": 85
+    },
+    {
+      "level": "H1",
+      "text": "Chapter 8 / Amortized analysis",
+      "page": 87
+    },
+    {
+      "level": "H2",
+      "text": "Two pointers method / Subarray sum",
+      "page": 87
+    },
+    {
+      "level": "H2",
+      "text": "2SUM problem",
+      "page": 88
+    },
+    {
+      "level": "H2",
+      "text": "Nearest smaller elements",
+      "page": 89
+    },
+    {
+      "level": "H2",
+      "text": "Sliding window minimum",
+      "page": 91
+    },
+    {
+      "level": "H1",
+      "text": "Chapter 9 / Range queries",
+      "page": 93
+    },
+    {
+      "level": "H2",
+      "text": "Static array queries / Sum queries",
+      "page": 94
+    },
+    {
+      "level": "H2",
+      "text": "Minimum queries",
+      "page": 95
+    },
+    {
+      "level": "H2",
+      "text": "Binary indexed tree / Structure",
+      "page": 96
+    },
+    {
+      "level": "H2",
+      "text": "Implementation",
+      "page": 98
+    },
+    {
+      "level": "H2",
+      "text": "Segment tree / Structure",
+      "page": 99
+    },
+    {
+      "level": "H2",
+      "text": "Implementation",
+      "page": 100
+    },
+    {
+      "level": "H2",
+      "text": "Other queries",
+      "page": 102
+    },
+    {
+      "level": "H2",
+      "text": "Additional techniques / Index compression / Range updates",
+      "page": 103
+    },
+    {
+      "level": "H1",
+      "text": "Chapter 10 / Bit manipulation",
+      "page": 105
+    },
+    {
+      "level": "H2",
+      "text": "Bit representation",
+      "page": 105
+    },
+    {
+      "level": "H2",
+      "text": "Bit operations / And operation / Or operation",
+      "page": 106
+    },
+    {
+      "level": "H2",
+      "text": "Xor operation / Not operation / Bit shifts / Applications",
+      "page": 107
+    },
+    {
+      "level": "H2",
+      "text": "Additional functions / Representing sets / Set implementation",
+      "page": 108
+    },
+    {
+      "level": "H2",
+      "text": "Set operations / Iterating through subsets",
+      "page": 109
+    },
+    {
+      "level": "H2",
+      "text": "Bit optimizations / Hamming distances",
+      "page": 110
+    },
+    {
+      "level": "H2",
+      "text": "Counting subgrids",
+      "page": 111
+    },
+    {
+      "level": "H2",
+      "text": "Dynamic programming / Optimal selection",
+      "page": 112
+    },
+    {
+      "level": "H2",
+      "text": "From permutations to subsets",
+      "page": 113
+    },
+    {
+      "level": "H2",
+      "text": "Counting subsets",
+      "page": 115
+    },
+    {
+      "level": "H1",
+      "text": "Part II / Graph algorithms",
+      "page": 117
+    },
+    {
+      "level": "H1",
+      "text": "Chapter 11 / Basics of graphs",
+      "page": 119
+    },
+    {
+      "level": "H2",
+      "text": "Graph terminology",
+      "page": 119
+    },
+    {
+      "level": "H2",
+      "text": "Connectivity / Edge directions",
+      "page": 120
+    },
+    {
+      "level": "H2",
+      "text": "Edge weights / Neighbors and degrees",
+      "page": 121
+    },
+    {
+      "level": "H2",
+      "text": "Colorings / Simplicity",
+      "page": 122
+    },
+    {
+      "level": "H2",
+      "text": "Graph representation / Adjacency list representation",
+      "page": 123
+    },
+    {
+      "level": "H2",
+      "text": "Adjacency matrix representation",
+      "page": 124
+    },
+    {
+      "level": "H2",
+      "text": "Edge list representation",
+      "page": 125
+    },
+    {
+      "level": "H1",
+      "text": "Chapter 12 / Graph traversal",
+      "page": 127
+    },
+    {
+      "level": "H2",
+      "text": "Depth-\ufb01rst search / Example",
+      "page": 127
+    },
+    {
+      "level": "H2",
+      "text": "Implementation",
+      "page": 128
+    },
+    {
+      "level": "H2",
+      "text": "Breadth-\ufb01rst search / Example",
+      "page": 129
+    },
+    {
+      "level": "H2",
+      "text": "Implementation",
+      "page": 130
+    },
+    {
+      "level": "H2",
+      "text": "Applications / Connectivity check / Finding cycles",
+      "page": 131
+    },
+    {
+      "level": "H2",
+      "text": "Bipartiteness check",
+      "page": 132
+    },
+    {
+      "level": "H1",
+      "text": "Chapter 13 / Shortest paths",
+      "page": 133
+    },
+    {
+      "level": "H2",
+      "text": "Bellman\u2013Ford algorithm / Example",
+      "page": 133
+    },
+    {
+      "level": "H2",
+      "text": "Implementation / Negative cycles",
+      "page": 135
+    },
+    {
+      "level": "H2",
+      "text": "SPFA algorithm / Dijkstra\u2019s algorithm / Example",
+      "page": 136
+    },
+    {
+      "level": "H2",
+      "text": "Negative edges / Implementation",
+      "page": 138
+    },
+    {
+      "level": "H2",
+      "text": "Floyd\u2013Warshall algorithm / Example",
+      "page": 139
+    },
+    {
+      "level": "H2",
+      "text": "Implementation",
+      "page": 141
+    },
+    {
+      "level": "H1",
+      "text": "Chapter 14 / Tree algorithms",
+      "page": 143
+    },
+    {
+      "level": "H2",
+      "text": "Tree traversal / Dynamic programming",
+      "page": 144
+    },
+    {
+      "level": "H2",
+      "text": "Diameter / Algorithm 1",
+      "page": 145
+    },
+    {
+      "level": "H2",
+      "text": "Algorithm 2",
+      "page": 146
+    },
+    {
+      "level": "H2",
+      "text": "All longest paths",
+      "page": 147
+    },
+    {
+      "level": "H2",
+      "text": "Binary trees",
+      "page": 149
+    },
+    {
+      "level": "H1",
+      "text": "Chapter 15 / Spanning trees",
+      "page": 151
+    },
+    {
+      "level": "H2",
+      "text": "Kruskal\u2019s algorithm / Example",
+      "page": 152
+    },
+    {
+      "level": "H2",
+      "text": "Why does this work?",
+      "page": 154
+    },
+    {
+      "level": "H2",
+      "text": "Implementation / Union-\ufb01nd structure / Structure",
+      "page": 155
+    },
+    {
+      "level": "H2",
+      "text": "Implementation",
+      "page": 156
+    },
+    {
+      "level": "H2",
+      "text": "Prim\u2019s algorithm / Example",
+      "page": 157
+    },
+    {
+      "level": "H2",
+      "text": "Implementation",
+      "page": 158
+    },
+    {
+      "level": "H1",
+      "text": "Chapter 16 / Directed graphs",
+      "page": 159
+    },
+    {
+      "level": "H2",
+      "text": "Topological sorting",
+      "page": 159
+    },
+    {
+      "level": "H2",
+      "text": "Algorithm / Example 1",
+      "page": 160
+    },
+    {
+      "level": "H2",
+      "text": "Example 2 / Dynamic programming",
+      "page": 161
+    },
+    {
+      "level": "H2",
+      "text": "Counting the number of paths",
+      "page": 162
+    },
+    {
+      "level": "H2",
+      "text": "Extending Dijkstra\u2019s algorithm / Representing problems as graphs",
+      "page": 163
+    },
+    {
+      "level": "H2",
+      "text": "Successor paths",
+      "page": 164
+    },
+    {
+      "level": "H2",
+      "text": "Cycle detection",
+      "page": 165
+    },
+    {
+      "level": "H2",
+      "text": "Floyd\u2019s algorithm",
+      "page": 166
+    },
+    {
+      "level": "H1",
+      "text": "Chapter 17 / Strong connectivity",
+      "page": 167
+    },
+    {
+      "level": "H2",
+      "text": "Kosaraju\u2019s algorithm / Search 1",
+      "page": 168
+    },
+    {
+      "level": "H2",
+      "text": "Search 2",
+      "page": 169
+    },
+    {
+      "level": "H2",
+      "text": "2SAT problem",
+      "page": 170
+    },
+    {
+      "level": "H1",
+      "text": "Chapter 18 / Tree queries",
+      "page": 173
+    },
+    {
+      "level": "H2",
+      "text": "Finding ancestors",
+      "page": 173
+    },
+    {
+      "level": "H2",
+      "text": "Subtrees and paths",
+      "page": 174
+    },
+    {
+      "level": "H2",
+      "text": "Subtree queries",
+      "page": 175
+    },
+    {
+      "level": "H2",
+      "text": "Path queries",
+      "page": 176
+    },
+    {
+      "level": "H2",
+      "text": "Lowest common ancestor / Method 1",
+      "page": 177
+    },
+    {
+      "level": "H2",
+      "text": "Method 2",
+      "page": 178
+    },
+    {
+      "level": "H2",
+      "text": "Distances of nodes",
+      "page": 179
+    },
+    {
+      "level": "H2",
+      "text": "Of\ufb02ine algorithms / Merging data structures",
+      "page": 180
+    },
+    {
+      "level": "H2",
+      "text": "Lowest common ancestors",
+      "page": 181
+    },
+    {
+      "level": "H1",
+      "text": "Chapter 19 / Paths and circuits",
+      "page": 183
+    },
+    {
+      "level": "H2",
+      "text": "Eulerian paths",
+      "page": 183
+    },
+    {
+      "level": "H2",
+      "text": "Existence",
+      "page": 184
+    },
+    {
+      "level": "H2",
+      "text": "Hierholzer\u2019s algorithm",
+      "page": 185
+    },
+    {
+      "level": "H2",
+      "text": "Example",
+      "page": 186
+    },
+    {
+      "level": "H2",
+      "text": "Hamiltonian paths / Existence",
+      "page": 187
+    },
+    {
+      "level": "H2",
+      "text": "Construction / De Bruijn sequences",
+      "page": 188
+    },
+    {
+      "level": "H2",
+      "text": "Knight\u2019s tours / Warnsdorf\u2019s rule",
+      "page": 189
+    },
+    {
+      "level": "H1",
+      "text": "Chapter 20 / Flows and cuts",
+      "page": 191
+    },
+    {
+      "level": "H2",
+      "text": "Maximum \ufb02ow",
+      "page": 191
+    },
+    {
+      "level": "H2",
+      "text": "Minimum cut / Ford\u2013Fulkerson algorithm",
+      "page": 192
+    },
+    {
+      "level": "H2",
+      "text": "Algorithm description",
+      "page": 193
+    },
+    {
+      "level": "H2",
+      "text": "Finding paths",
+      "page": 194
+    },
+    {
+      "level": "H2",
+      "text": "Minimum cuts",
+      "page": 195
+    },
+    {
+      "level": "H2",
+      "text": "Disjoint paths / Edge-disjoint paths / Node-disjoint paths",
+      "page": 196
+    },
+    {
+      "level": "H2",
+      "text": "Maximum matchings",
+      "page": 197
+    },
+    {
+      "level": "H2",
+      "text": "Finding maximum matchings",
+      "page": 198
+    },
+    {
+      "level": "H2",
+      "text": "Hall\u2019s theorem / K\u0151nig\u2019s theorem",
+      "page": 199
+    },
+    {
+      "level": "H2",
+      "text": "Path covers",
+      "page": 200
+    },
+    {
+      "level": "H2",
+      "text": "Node-disjoint path cover",
+      "page": 201
+    },
+    {
+      "level": "H2",
+      "text": "General path cover",
+      "page": 202
+    },
+    {
+      "level": "H2",
+      "text": "Dilworth\u2019s theorem",
+      "page": 203
+    },
+    {
+      "level": "H1",
+      "text": "Part III / Advanced topics",
+      "page": 205
+    },
+    {
+      "level": "H1",
+      "text": "Chapter 21 / Number theory",
+      "page": 207
+    },
+    {
+      "level": "H2",
+      "text": "Primes and factors",
+      "page": 207
+    },
+    {
+      "level": "H2",
+      "text": "Number of primes / Density of primes",
+      "page": 208
+    },
+    {
+      "level": "H2",
+      "text": "Conjectures / Basic algorithms",
+      "page": 209
+    },
+    {
+      "level": "H2",
+      "text": "Sieve of Eratosthenes / Euclid\u2019s algorithm",
+      "page": 210
+    },
+    {
+      "level": "H2",
+      "text": "Euler\u2019s totient function / Modular arithmetic",
+      "page": 211
+    },
+    {
+      "level": "H2",
+      "text": "Modular exponentiation / Fermat\u2019s theorem and Euler\u2019s theorem / Modular inverse",
+      "page": 212
+    },
+    {
+      "level": "H2",
+      "text": "Computer arithmetic",
+      "page": 213
+    },
+    {
+      "level": "H2",
+      "text": "Solving equations / Diophantine equations",
+      "page": 214
+    },
+    {
+      "level": "H2",
+      "text": "Chinese remainder theorem / Other results / Lagrange\u2019s theorem",
+      "page": 215
+    },
+    {
+      "level": "H2",
+      "text": "Zeckendorf\u2019s theorem / Pythagorean triples / Wilson\u2019s theorem",
+      "page": 216
+    },
+    {
+      "level": "H1",
+      "text": "Chapter 22 / Combinatorics",
+      "page": 217
+    },
+    {
+      "level": "H2",
+      "text": "Binomial coef\ufb01cients / Formula 1 / Formula 2 / Properties",
+      "page": 218
+    },
+    {
+      "level": "H2",
+      "text": "Boxes and balls",
+      "page": 219
+    },
+    {
+      "level": "H2",
+      "text": "Multinomial coe\ufb03cients / Catalan numbers",
+      "page": 220
+    },
+    {
+      "level": "H2",
+      "text": "Parenthesis expressions / Formula 1 / Formula 2",
+      "page": 221
+    },
+    {
+      "level": "H2",
+      "text": "Counting trees / Inclusion-exclusion",
+      "page": 222
+    },
+    {
+      "level": "H2",
+      "text": "Derangements",
+      "page": 223
+    },
+    {
+      "level": "H2",
+      "text": "Burnside\u2019s lemma",
+      "page": 224
+    },
+    {
+      "level": "H2",
+      "text": "Cayley\u2019s formula",
+      "page": 225
+    },
+    {
+      "level": "H2",
+      "text": "Pr\u00fcfer code",
+      "page": 226
+    },
+    {
+      "level": "H1",
+      "text": "Chapter 23 / Matrices",
+      "page": 227
+    },
+    {
+      "level": "H2",
+      "text": "Operations",
+      "page": 227
+    },
+    {
+      "level": "H2",
+      "text": "Matrix multiplication",
+      "page": 228
+    },
+    {
+      "level": "H2",
+      "text": "Matrix power / Determinant",
+      "page": 229
+    },
+    {
+      "level": "H2",
+      "text": "Linear recurrences / Fibonacci numbers",
+      "page": 230
+    },
+    {
+      "level": "H2",
+      "text": "General case",
+      "page": 231
+    },
+    {
+      "level": "H2",
+      "text": "Graphs and matrices / Counting paths / Shortest paths",
+      "page": 232
+    },
+    {
+      "level": "H2",
+      "text": "Kirchho\ufb00\u2019s theorem",
+      "page": 233
+    },
+    {
+      "level": "H1",
+      "text": "Chapter 24 / Probability",
+      "page": 235
+    },
+    {
+      "level": "H2",
+      "text": "Calculation / Method 1",
+      "page": 235
+    },
+    {
+      "level": "H2",
+      "text": "Method 2 / Events",
+      "page": 236
+    },
+    {
+      "level": "H2",
+      "text": "Complement / Union / Conditional probability",
+      "page": 237
+    },
+    {
+      "level": "H2",
+      "text": "Intersection / Random variables",
+      "page": 238
+    },
+    {
+      "level": "H2",
+      "text": "Expected value / Distributions",
+      "page": 239
+    },
+    {
+      "level": "H2",
+      "text": "Markov chains",
+      "page": 240
+    },
+    {
+      "level": "H2",
+      "text": "Randomized algorithms",
+      "page": 241
+    },
+    {
+      "level": "H2",
+      "text": "Order statistics / Verifying matrix multiplication",
+      "page": 242
+    },
+    {
+      "level": "H2",
+      "text": "Graph coloring",
+      "page": 243
+    },
+    {
+      "level": "H1",
+      "text": "Chapter 25 / Game theory",
+      "page": 245
+    },
+    {
+      "level": "H2",
+      "text": "Game states / Winning and losing states",
+      "page": 245
+    },
+    {
+      "level": "H2",
+      "text": "State graph",
+      "page": 246
+    },
+    {
+      "level": "H2",
+      "text": "Nim game / Analysis",
+      "page": 247
+    },
+    {
+      "level": "H2",
+      "text": "Mis\u00e8re game / Sprague\u2013Grundy theorem / Grundy numbers",
+      "page": 248
+    },
+    {
+      "level": "H2",
+      "text": "Subgames / Grundy\u2019s game",
+      "page": 250
+    },
+    {
+      "level": "H1",
+      "text": "Chapter 26 / String algorithms",
+      "page": 253
+    },
+    {
+      "level": "H2",
+      "text": "String terminology",
+      "page": 253
+    },
+    {
+      "level": "H2",
+      "text": "Trie structure",
+      "page": 254
+    },
+    {
+      "level": "H2",
+      "text": "String hashing / Calculating hash values / Preprocessing",
+      "page": 255
+    },
+    {
+      "level": "H2",
+      "text": "Using hash values / Collisions and parameters",
+      "page": 256
+    },
+    {
+      "level": "H2",
+      "text": "Z-algorithm",
+      "page": 257
+    },
+    {
+      "level": "H2",
+      "text": "Algorithm description",
+      "page": 258
+    },
+    {
+      "level": "H2",
+      "text": "Using the Z-array / Implementation",
+      "page": 260
+    },
+    {
+      "level": "H1",
+      "text": "Chapter 27 / Square root algorithms",
+      "page": 261
+    },
+    {
+      "level": "H2",
+      "text": "Combining algorithms / Case processing",
+      "page": 262
+    },
+    {
+      "level": "H2",
+      "text": "Batch processing",
+      "page": 263
+    },
+    {
+      "level": "H2",
+      "text": "Integer partitions / Knapsack",
+      "page": 264
+    },
+    {
+      "level": "H2",
+      "text": "String construction / Mo\u2019s algorithm",
+      "page": 265
+    },
+    {
+      "level": "H2",
+      "text": "Example",
+      "page": 266
+    },
+    {
+      "level": "H1",
+      "text": "Chapter 28 / Segment trees revisited",
+      "page": 267
+    },
+    {
+      "level": "H2",
+      "text": "Lazy propagation / Lazy segment trees",
+      "page": 268
+    },
+    {
+      "level": "H2",
+      "text": "Polynomial updates",
+      "page": 270
+    },
+    {
+      "level": "H2",
+      "text": "Dynamic trees / Sparse segment trees",
+      "page": 271
+    },
+    {
+      "level": "H2",
+      "text": "Persistent segment trees",
+      "page": 272
+    },
+    {
+      "level": "H2",
+      "text": "Data structures",
+      "page": 273
+    },
+    {
+      "level": "H2",
+      "text": "Two-dimensionality",
+      "page": 274
+    },
+    {
+      "level": "H1",
+      "text": "Chapter 29 / Geometry",
+      "page": 275
+    },
+    {
+      "level": "H2",
+      "text": "Complex numbers",
+      "page": 276
+    },
+    {
+      "level": "H2",
+      "text": "Functions",
+      "page": 277
+    },
+    {
+      "level": "H2",
+      "text": "Points and lines / Point location",
+      "page": 278
+    },
+    {
+      "level": "H2",
+      "text": "Line segment intersection / Point distance from a line",
+      "page": 279
+    },
+    {
+      "level": "H2",
+      "text": "Point inside a polygon",
+      "page": 280
+    },
+    {
+      "level": "H2",
+      "text": "Polygon area",
+      "page": 281
+    },
+    {
+      "level": "H2",
+      "text": "Pick\u2019s theorem / Distance functions",
+      "page": 282
+    },
+    {
+      "level": "H2",
+      "text": "Rotating coordinates",
+      "page": 283
+    },
+    {
+      "level": "H1",
+      "text": "Chapter 30 / Sweep line algorithms",
+      "page": 285
+    },
+    {
+      "level": "H2",
+      "text": "Intersection points",
+      "page": 286
+    },
+    {
+      "level": "H2",
+      "text": "Closest pair problem",
+      "page": 287
+    },
+    {
+      "level": "H2",
+      "text": "Convex hull problem",
+      "page": 288
+    },
+    {
+      "level": "H1",
+      "text": "Bibliography",
+      "page": 291
+    }
+  ],
+  "stats": {
+    "pages": 296,
+    "fonts": 12,
+    "estimated_read_time": "456 min"
+  }
+}
